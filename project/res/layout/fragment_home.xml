@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    
-    <TextView
-        android:id="@+id/txtLabel"
-         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="16dp"
-        android:text="Home View"/>
-    
-    <ImageView android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtLabel"
-        android:src="@drawable/ic_home"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
-    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/home_bg">
 
+   <EditText
+        android:id="@+id/university_name_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="@string/university_search"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textCapWords|textNoSuggestions"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/list_divider_university"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 </RelativeLayout>

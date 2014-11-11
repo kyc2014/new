@@ -6,3 +6,4 @@
     <item android:drawable="@drawable/list_item_bg_pressed" android:state_activated="true"/>
 
 </selector>
+
