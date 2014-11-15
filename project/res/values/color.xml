@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="list_item_title">#fff</color>
-    <color name="list_background">#90c5a9</color> <!-- 303030 -->
-    <color name="list_background_pressed">#90c5a9</color> <!--992416 -->
-    <color name="list_divider_slidermenu">#ffffff</color> <!-- 272727 -->
+    <color name="list_item_title">#aaa</color>
+    <color name="list_background">#fff</color> <!-- #303030  #90c5a9-->
+    <color name="list_background_pressed">#ececec</color> <!--992416 -->
+    <color name="list_divider_slidermenu">#ccc</color> <!-- 272727 -->
     <color name="counter_text_bg">#626262</color>
     <color name="counter_text_color">#c5c4c4</color>
     <color name="name">#666666</color>
-    <color name="list_divider_university">#fff</color>
+    <color name="list_divider_university">#ececec</color>
     <color name="list_row_start_color">#7a9a95</color>
     <color name="list_row_end_color">#7a9a95</color>
     <color name="list_row_hover_start_color">#ebeef0</color>
     <color name="list_row_hover_end_color">#ebeef0</color>
-    <color name="home_bg">#90c5a9</color>
+    <color name="black">#000</color>
 </resources>

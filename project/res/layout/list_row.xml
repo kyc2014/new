@@ -20,9 +20,8 @@
         android:layout_alignTop="@+id/thumbnail"
         android:layout_toRightOf="@+id/thumbnail"
         android:textSize="@dimen/title"
-        android:textStyle="bold"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="8dp"
-        android:textColor="#ffffff"/>
+        android:textColor="#CCC"/>
 
 </RelativeLayout>
