@@ -6,15 +6,15 @@
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
-    
+
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
-        <item >Home</item>
-        <item >Profile</item>
-        <item >Chats</item>
-        <item >Profile Evaluation</item>
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Chats</item>
+        <item>Profile Evaluation</item>
     </string-array>
-    
+
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
@@ -25,15 +25,114 @@
         <item>@drawable/ic_pages</item>
         <item>@drawable/ic_whats_hot</item>
     </array>
-    
+
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
     
+    <!-- User Details -->
+    <string name="file_user_details">user_details</string>
+
     <!-- Profile Window -->
-    <string name="profile_name">Name</string>
-    <string name="profile_college">Undergraduate Institution</string>
-    <string name="profile_gre">GRE</string>
-    <string name="profile_toefl">TOEFL</string>
-    <string name="profile_ug_score">UG Score</string>
-    
+    <string name="profile_label_text_name">Name</string>
+    <string name="profile_label_text_college">Undergraduate Institution</string>
+    <string name="profile_label_text_gre">GRE Score</string>
+    <string name="profile_label_text_toefl">TOEFL Score</string>
+    <string name="profile_label_ug_score">UG Score (Perentage/GPA)</string>
+	<string name="profile_submit_string">Submit</string>
+	<string name="profile_confirm_string">Confirm</string>
+	<string name="profile_submit_confirmation_string">Proceed with submit?</string>
+	<string name="profile_label_work_experience">Work Experience in months</string>
+	<string name="profile_label_description">Describe your academic achievements and extra curricular details in 100 Words</string>
+	<string name="profile_label_confirm_email">Confirm Email</string>
+	<string name="profile_label_backlogs">Number of backlogs</string>
+	<string name="profile_label_notify">Notify updates about Universities and Colleges</string>
+	<string name="profile_label_country">Country</string>
+	
+	<string name="profile_label_email">Email</string>
+    <string-array name="profile_institutions_array">
+        <item>SASTRA University</item>
+        <item>Osmania University</item>
+        <item>Asia Pacific Institute of Information Technology</item>
+        <item>R.V. College of Engineering</item>
+        <item>Bangalore Institute of Technology</item>
+        <item>Birla Institute of Technology</item>
+        <item>Birla Institute of Technology and Science, Pilani</item>
+        <item>Birsa Institute of Technology Sindri</item>
+        <item>Chaitanya Bharathi Institute of Technology</item>
+        <item>College of Engineering Pune</item>
+        <item>College of Engineering Trivandrum</item>
+        <item>College of Engineering Guindy</item>
+        <item>DIT University</item>
+        <item>Delhi Technological University</item>
+        <item>Dhirubhai Ambani Institute of Information and Communication Technology</item>
+        <item>Dwarkadas J. Sanghvi College of Engineering</item>
+        <item>Malaviya National Institute of Technology, Jaipur</item>
+        <item>Harcourt Butler Technological Institute</item>
+        <item>Indian Institute of Engineering Science and Technology, Shibpur</item>
+        <item>Indian Institute of Information Technology, Allahabad</item>
+        <item>Indian Institute of Technology, Bhubaneswar</item>
+        <item>Indian Institute of Technology, Bombay</item>
+        <item>Indian Institute of Technology, Delhi</item>
+        <item>Indian Institute of Technology, Guwahati</item>
+        <item>Indian Institute of Technology, Jodhpur</item>
+        <item>Indian Institute of Technology, Kanpur</item>
+        <item>Indian Institute of Technology, Kharagpur</item>
+        <item>Indian Institute of Technology, Madras</item>
+        <item>Indian Institute of Technology, Roorkee</item>
+        <item>Indian Institute of Technology (BHU), Varanasi</item>
+        <item>Indian School of Mines, Dhanbad</item>
+        <item>Institute of Technology, Nirma University</item>
+        <item>International Institute of Information Technology, Hyderabad</item>
+        <item>Jamia Millia Islamia</item>
+        <item>Jorhat Engineering College</item>
+        <item>M.S.Ramaiah Institute of Technology</item>
+        <item>Maharaja Agrasen Institute of Technology</item>
+        <item>Maharashtra Institute of Technology</item>
+        <item>Manipal Institute of Technology</item>
+        <item>MBM Engineering College</item>
+        <item>Mepco Schlenk Engineering College</item>
+        <item>Model Engineering College</item>
+        <item>Motilal Nehru National Institute of Technology, Allahabad</item>
+        <item>Muffakham Jah College of Engineering and Technology</item>
+        <item>National Institute of Engineering</item>
+        <item>National Institute of Technology, Calicut</item>
+        <item>National Institute of Technology, Durgapur</item>
+        <item>National Institute of Technology, Hamirpur</item>
+        <item>National Institute of Technology Karnataka</item>
+        <item>National Institute of Technology, Kurukshetra</item>
+        <item>National Institute of Technology, Jamshedpur</item>
+        <item>National Institute of Technology, Rourkela</item>
+        <item>National Institute of Technology, Silchar</item>
+        <item>National Institute of Technology Srinagar</item>
+        <item>National Institute of Technology, Tiruchirappalli</item>
+        <item>National Institute of Technology, Warangal</item>
+        <item>Netaji Subhas Institute of Technology</item>
+        <item>P.S.G. College of Technology</item>
+        <item>P.E.S. College of Engineering</item>
+        <item>P.E.S. Institute of Technology</item>
+        <item>P.E.C. University of Technology</item>
+        <item>Institute of Engineering and Technology, Bhaddal</item>
+        <item>B M S College of Engineering</item>
+        <item>Rajagiri School of Engineering &amp; Technology</item>
+        <item>Rajalakshmi Engineering College</item>
+        <item>SRM University</item>
+        <item>Sagar Institute of Science and Technology</item>
+        <item>Sardar Vallabhbhai National Institute of Technology, Surat</item>
+        <item>Shri Mata Vaishno Devi University</item>
+        <item>Shri Ramdeobaba College of Engineering and Management</item>
+        <item>Shri Govindram Seksaria Institute of Technology and Science</item>
+        <item>Siddaganga Institute Of Technology</item>
+        <item>Dhirubhai Ambani Institute of Information and Communication Technology</item>
+        <item>Sir M. Visvesvaraya Institute of Technology</item>
+        <item>Thadomal Shahani Engineering College</item>
+        <item>Thapar University</item>
+        <item>Thiagarajar College of Engineering</item>
+        <item>University Institute of Engineering and Technology, Panjab University</item>
+        <item>Veermata Jijabai Technological Institute</item>
+        <item>Vellore Institute of Technology</item>
+        <item>Visvesvaraya National Institute of Technology</item>
+        <item>Walchand Institute of Technology</item>
+        <item>West Bengal University of Technology</item>
+    </string-array>
+
 </resources>
