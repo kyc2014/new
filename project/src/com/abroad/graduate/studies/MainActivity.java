@@ -183,10 +183,10 @@ public class MainActivity extends Activity {
 			fragment = new HomeFragment();
 			break;
 		case 1:
-			fragment = new FindPeopleFragment();
+			fragment = new ProfileFragment();
 			break;
 		case 2:
-			fragment = new PhotosFragment();
+			fragment = new FindPeopleFragment();
 			break;
 		case 3:
 			fragment = new CommunityFragment();
