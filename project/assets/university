@@ -1,0 +1,10 @@
+{
+        "University Of Southern California": {
+            "gre": 310,
+            "toefl": 110
+        },
+        "Stony Brook University": {
+            "gre": 320,
+            "toefl": 101
+        }
+}

@@ -1,7 +1,9 @@
 package com.abroad.graduate.studies;
 
 
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.io.BufferedReader;
 
 import com.abroad.graduate.studies.adapter.NavDrawerListAdapter;
 import com.abroad.graduate.studies.model.NavDrawerItem;
@@ -9,6 +11,7 @@ import com.abroad.graduate.studies.model.NavDrawerItem;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -20,6 +23,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	private DrawerLayout mDrawerLayout;
@@ -43,6 +47,17 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+        /*
+        try {
+            AssetManager am=getApplicationContext().getAssets();
+            BufferedReader br = new BufferedReader(new InputStreamReader(am.open("university")));
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        */
 
 		mTitle = mDrawerTitle = getTitle();
 
