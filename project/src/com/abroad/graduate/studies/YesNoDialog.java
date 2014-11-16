@@ -29,6 +29,7 @@ public class YesNoDialog extends DialogFragment
                 @Override
                 public void onClick(DialogInterface dialog, int which)
                 {
+                	dialog.dismiss();
                     getTargetFragment().onActivityResult(getTargetRequestCode(), Activity.RESULT_OK, null);
                 }
             })
@@ -37,6 +38,7 @@ public class YesNoDialog extends DialogFragment
                 @Override
                 public void onClick(DialogInterface dialog, int which)
                 {
+                	dialog.dismiss();
                     getTargetFragment().onActivityResult(getTargetRequestCode(), Activity.RESULT_CANCELED, null);
                 }
             })
